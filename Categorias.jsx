@@ -3,33 +3,33 @@ import '../styles/stylesC.css';
 
 const Categorias = () => {
   const categoriasData = [
-  {
-    nombre: "Artesanías",
-    imagenes: [
-      "/Imagenes/Chimichurri.png",
-      "/Imagenes/Cavazos.png",
-      "/Imagenes/Dona Macha.png",
-      "/Imagenes/Calabaza.png"
-    ]
-  },
-  {
-    nombre: "Alimentos", 
-    imagenes: [
-      "/Imagenes/Miel.png",
-      "/Imagenes/Salsa Verde.png",
-      "/Imagenes/Chimichurri.png",
-      "/Imagenes/Cavazos.png"
-    ]
-  },
-  {
-    nombre: "Servicios",
-    imagenes: [
-      "/Imagenes/Dona Macha.png",
-      "/Imagenes/Calabaza.png",
-      "/Imagenes/Miel.png",
-      "/Imagenes/Salsa Verde.png"
-    ]
-  }
+    {
+      nombre: "Artesanias",  // ← SIN TILDE
+      imagenes: [
+        "/Imagenes/Chimichurri.png",
+        "/Imagenes/Cavazos.png", 
+        "/Imagenes/Dona Macha.png",
+        "/Imagenes/Calabaza.png"
+      ]
+    },
+    {
+      nombre: "Alimentos",
+      imagenes: [
+        "/Imagenes/Miel.png",
+        "/Imagenes/Salsa Verde.png",
+        "/Imagenes/Chimichurri.png",
+        "/Imagenes/Cavazos.png"
+      ]
+    },
+    {
+      nombre: "Servicios", 
+      imagenes: [
+        "/Imagenes/Dona Macha.png",
+        "/Imagenes/Calabaza.png",
+        "/Imagenes/Miel.png",
+        "/Imagenes/Salsa Verde.png"
+      ]
+    }
   ];
 
   return (
