@@ -7,7 +7,7 @@ const Categorias = () => {
     nombre: "Artesanías",
     imagenes: [
       "/Imagenes/Chimichurri.png",
-      "/Imagenes/Cavazos.png",        // ← Actualiza estas rutas
+      "/Imagenes/Cavazos.png",
       "/Imagenes/Dona Macha.png",
       "/Imagenes/Calabaza.png"
     ]
@@ -16,8 +16,8 @@ const Categorias = () => {
     nombre: "Alimentos", 
     imagenes: [
       "/Imagenes/Miel.png",
-      "/Imagenes/Salsa Verde.png",    // ← Actualiza estas rutas
-      "/Imagenes/Chimichurri.png",    // Puedes repetir imágenes temporalmente
+      "/Imagenes/Salsa Verde.png",
+      "/Imagenes/Chimichurri.png",
       "/Imagenes/Cavazos.png"
     ]
   },
@@ -25,7 +25,7 @@ const Categorias = () => {
     nombre: "Servicios",
     imagenes: [
       "/Imagenes/Dona Macha.png",
-      "/Imagenes/Calabaza.png",       // ← Actualiza estas rutas  
+      "/Imagenes/Calabaza.png",
       "/Imagenes/Miel.png",
       "/Imagenes/Salsa Verde.png"
     ]
