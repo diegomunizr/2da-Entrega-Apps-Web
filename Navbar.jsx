@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../styles/stylesPP.css';
 
-const Navbar = () => {
+const Navbar = ({ searchTerm, onSearchChange }) => {
   return (
     <header className="encabezado">
       <div className="contenedor barra-encabezado">
@@ -13,7 +13,14 @@ const Navbar = () => {
 
       <nav className="contenedor buscador" aria-label="Buscador">
         <div className="caja-buscar" role="search">
-          <input id="q" name="q" type="search" placeholder="Buscar productos o servicios" />
+          <input 
+            id="q" 
+            name="q" 
+            type="search" 
+            placeholder="Buscar productos o servicios" 
+            value={searchTerm}  // ← Valor controlado
+            onChange={(e) => onSearchChange(e.target.value)}  // ← Manejar cambios
+          />
           <button className="btn-buscar" type="button" aria-label="Buscar">
             <img src="/Imagenes/icons8-search.svg" alt="Buscar" className="icono-buscar" />
           </button>
